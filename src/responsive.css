@@ -1,0 +1,68 @@
+@media (max-width: 375px) {
+  html {
+    width: 375px;
+   
+  }
+  .cabecalho img {
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+  }
+  body{
+    padding: 20px;
+    text-align: center;
+  }
+  .conteudo {
+    display: block;
+    width: 295px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    
+    
+  }
+  .conteudo img {
+  height: auto;
+   
+  }
+  .conteudo .informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .conteudo .informacoes h2 {
+    padding: 20px;
+    font-size: 20px;
+    
+  }
+  .conteudo .informacoes p {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  .conteudo .informacoes a{
+    width: 200px;
+    font-size: 10px;
+    padding: 10px ;
+    margin: 35px 100px;
+    border-radius: 50px;
+    }
+  .footer .social{
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    
+}
+.footer .social a{
+    display: inline-flex;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+    color:  #fff;
+    border-radius: 50%;
+    border: 1px solid #fff;
+     width: 30px;
+    height: 30px;
+}
+}
